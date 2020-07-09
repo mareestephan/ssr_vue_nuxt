@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "concurrently": "^3.4.0",
+    "axios": "0.19.2",
+    "nuxt": "^2.13.0"
+  },
+  "scripts": {
+    "shop1:dev": "nuxt --config-file src/shop1/nuxt.config.js -p=3000",
+    "shop2:dev": "nuxt --config-file src/shop2/nuxt.config.js -p=4000",
+    "dev": "concurrently \"npm run shop1:dev\" \"npm run shop2:dev\"",
+    "shop1:build": "nuxt build --config-file src/shop1/nuxt.config.js",
+    "shop2:build": "nuxt build --config-file src/shop2/nuxt.config.js",
+    "shop1:start": "nuxt start --config-file src/shop1/nuxt.config.js",
+    "shop2:start": "nuxt start --config-file src/shop2/nuxt.config.js"
+  }
+}
