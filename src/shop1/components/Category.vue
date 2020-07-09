@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "Joke",
+  name: "Category",
   props: ["slug", "category_id", "link"]
 };
 </script>

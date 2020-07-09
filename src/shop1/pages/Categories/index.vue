@@ -2,7 +2,8 @@
   <div>
    <!-- <nuxt-link v-for="todo in todos" :key="todo.category_id" to="">{{todo.link}}</nuxt-link>
     <nuxt-link to="/about">{{link}}</nuxt-link> -->
-   <nuxt-link class="nuxtLink" v-for="todo in todos" :key="todo.category_id"  v-bind:to="todo.link">Anchor example</nuxt-link>
+   <nuxt-link class="nuxtLink" v-for="todo in todos" :key="todo.category_id"  v-bind:to="todo.link">Nuxt-link example</nuxt-link>
+   <a class="nuxtLink" v-for="todo in todos" :key="todo.category_id"  v-bind:href="todo.link">Anchor link example</a>
   </div>
 </template>
 
