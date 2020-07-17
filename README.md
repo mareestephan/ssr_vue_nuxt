@@ -1,15 +1,10 @@
-# Example multiple Nuxt.js apps
-This repository serves as an example on how to create multiple apps with nuxt 1.0 in same project directory.
+cd into main folder.
 
-Look at the commits history for details 
-- install nuxt
-- scaffold the Nuxt apps
-- add dev server scripts
-- **Optional**: run servers concurently
+ $ npm install
+ $ npm run dev
 
-## Note
-Works with nuxt version >v1-0-0.alpha.4
+ shop1(all-sale) will run on localhost:3000. Navigate to http://localhost:3000/posts om die all-sale page te sien.
+ shop2 will run on localhost:4000.  Shop2 is steeds net n basic voorbeeld. 
 
-## Documentation
+ 
 
-Nuxt.js documentation: [https://nuxtjs.org](https://nuxtjs.org)
